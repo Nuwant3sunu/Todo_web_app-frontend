@@ -1,7 +1,7 @@
 
 //Add constant variable that holds url for the backend.
 import { Todos } from './class/Todos.js'
-const BACKEND_ROOT_URL = 'http://localhost:3001';
+const BACKEND_ROOT_URL = 'https://todo-web-app-backend-0j2n.onrender.com';
 
 
 const todos = new Todos(BACKEND_ROOT_URL);
